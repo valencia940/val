@@ -17,11 +17,11 @@ require_once 'functions.php';
 
 // ---------- DATA: Users (nested associative arrays) ----------
 $users = [
-    'U001' => ['name' => 'Reabetswe Mosenyi',  'outstanding_fine' => 0.0,   'borrowed_books' => []],
-    'U002' => ['name' => 'Nkateko Nkuna',    'outstanding_fine' => 0.0,   'borrowed_books' => []],
-    'U003' => ['name' => 'LEBOHANG MUNYAI',    'outstanding_fine' => 185.00, 'borrowed_books' => []], // Near limit
-    'U004' => ['name' => 'KATLEGO MOSENYI',    'outstanding_fine' => 210.00, 'borrowed_books' => []], // Over limit – blocked
-    'U005' => ['name' => 'THAPELO PHOSHOKO',    'outstanding_fine' => 0.0,   'borrowed_books' => []],
+    'U001' => ['name' => 'Sipho Dlamini',  'outstanding_fine' => 0.0,   'borrowed_books' => []],
+    'U002' => ['name' => 'James Mitchell',    'outstanding_fine' => 0.0,   'borrowed_books' => []],
+    'U003' => ['name' => 'Noah Bennett',    'outstanding_fine' => 185.00, 'borrowed_books' => []], // Near limit
+    'U004' => ['name' => 'Hana Sato',    'outstanding_fine' => 210.00, 'borrowed_books' => []], // Over limit – blocked
+    'U005' => ['name' => 'Nokubonga Mahlangu',    'outstanding_fine' => 0.0,   'borrowed_books' => []],
 ];
 
 // ---------- PROCESS: Borrow Operations ----------
