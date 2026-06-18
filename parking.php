@@ -18,21 +18,21 @@ require_once 'functions.php';
 // ---------- DATA: Permit Applications ----------
 // Format: [name, age, type]
 $applications = [
-    ['Reabetswe Mosenyi',    22, 'Student'],
-    ['Nkateko Nkuna',      17, 'Student'],   // Under 18 – should be denied
-    ['LEBOHANG MUNYAI',      35, 'Staff'],
-    ['KATLEGO MOSENYI',      45, 'Staff'],
-    ['THAPELO PHOSHOKO',      19, 'Student'],
+    ['Tshego Zulu',    22, 'Student'],
+    ['Esther Matthews',      17, 'Student'],   // Under 18 – should be denied
+    ['Noah Bennett',      35, 'Staff'],
+    ['Hana Sato',      45, 'Staff'],
+    ['Sipho Dlamini',      19, 'Student'],
     ['Frank Williams',   16, 'Visitor'],   // Under 18 – should be denied
     ['Grace Sithole',    28, 'Visitor'],
-    ['Hector Baloyi',    31, 'Staff'],
-    ['Irene van Wyk',    24, 'Student'],
-    ['James Okafor',     52, 'Staff'],
-    ['Karen Mahlangu',   20, 'Student'],
-    ['Lebo Khumalo',     18, 'Visitor'],
-    ['Mike Steyn',       40, 'Staff'],
+    ['Emma Johnson',    31, 'Staff'],
+    ['Aisha Khan',    24, 'Student'],
+    ['James Mitchell',     52, 'Staff'],
+    ['Nokubonga Mahlangu',   20, 'Student'],
+    ['Lesego Skhosana',     18, 'Visitor'],
+    ['Olivia Parker',       40, 'Staff'],
     ['Nomsa Zulu',       23, 'Student'],
-    ['Oscar Ferreira',   29, 'Visitor'],
+    ['Thandiwe Nkosi',   29, 'Visitor'],
 ];
 
 // ---------- PROCESS APPLICATIONS ----------
